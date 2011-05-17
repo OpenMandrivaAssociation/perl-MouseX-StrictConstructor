@@ -9,10 +9,10 @@ Group:      Development/Perl
 Summary:    Make your object constructors blow up on unknown attributes
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source:     http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
-BuildRequires:  perl-devel
 BuildRequires:  perl(Module::Build)
-BuildRoot:  %{_tmppath}/%{name}-%{version}
+BuildRequires:  perl(Mouse)
 BuildArch: noarch
+BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 Make your object constructors blow up on unknown attributes
