@@ -7,7 +7,7 @@ Release:	4
 License:	Artistic
 Group:		Development/Perl
 Summary:	Make your object constructors blow up on unknown attributes
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
